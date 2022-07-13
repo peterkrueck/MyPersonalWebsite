@@ -110,4 +110,12 @@ a {
 
 .bluebox {
     background-color: #3882F6;
+    margin: 80px 160px;
+    padding: 40px;
+}
+
+.footer {
+    text-align: center;
+    color: white;
+    font-size: 12px;
 }
