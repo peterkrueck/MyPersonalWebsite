@@ -53,6 +53,7 @@ a {
 
 
 .uppermidinfo {
+    padding: 10px;
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
@@ -85,13 +86,26 @@ a {
 
 .lowermid {
     background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+
+.lowermidcontainer {
+    padding: 80px 80px;
+    display: flex;
+    gap: 140px;
+}
+
 
 .lowermidtext {
     font-size: 30px;
     color: #1F2937;
     font-style: italic;
     font-weight: lighter;
+    padding: 0px;
+    margin: 0px;
 }
 
 .bluebox {
