@@ -16,13 +16,22 @@ body {
 
 .headercontainer {
     display: flex;
-    justify-self: center;
+    justify-content: space-around;
+}
+
+.headerlist {
+    display: flex;
+    gap: 60px;
 }
 
 .headerlogo,
 .headertext {
     color:#F9FAF8;
     font-size: 24px;
+}
+
+.headerlogo {
+    padding-top: 10px;
 }
 
 ul {
