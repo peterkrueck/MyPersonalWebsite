@@ -7,3 +7,60 @@
 .footer {
     background-color: #1F2937;
 }
+
+.headerlogo,
+.headertext {
+    color:#F9FAF8;
+    font-size: 24px;
+}
+
+.headerlist {
+    list-style-type: none;
+}
+
+h1 {
+    color: #F9FAF8;
+}
+
+
+.linktoinsta {
+    background-color: rgb(87, 126, 225);
+    color: #F9FAF8;
+    padding: 8px 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+
+.uppermidinfo {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+}
+
+
+.uppermidpic {
+    height: 200px;
+    width: 200px;
+}
+
+
+.lowermid {
+    background-color: #E5E7EB;
+}
+
+.lowermidtext {
+    font-size: 30px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.bluebox {
+    background-color: #3882F6;
+}
