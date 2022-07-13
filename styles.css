@@ -47,6 +47,11 @@ a {
 }
 
 
+.uppermid {
+    padding-bottom: 40px;
+}
+
+
 .uppermidinfo {
     font-size: 36px;
     font-weight: bolder;
@@ -56,15 +61,25 @@ a {
 
 
 .uppermidpic {
-    height: 200px;
-    width: 200px;
+    height: 220px;
+    width: 220px;
 }
 
 
 .uppermidlist {
     display: flex;
-    gap: 80px;
+    gap: 100px;
     justify-content: center;
+}
+
+
+.uppermidlist>li {
+    background-color: #dce0e4;
+    padding: 10px;
+    border: solid 1px black;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
 }
 
 
