@@ -1,3 +1,9 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+
 .headerpic {
     height: auto;
     width: 400px;
@@ -8,13 +14,18 @@
     background-color: #1F2937;
 }
 
+.headercontainer {
+    display: flex;
+    justify-self: center;
+}
+
 .headerlogo,
 .headertext {
     color:#F9FAF8;
     font-size: 24px;
 }
 
-.headerlist {
+ul {
     list-style-type: none;
 }
 
@@ -47,6 +58,13 @@ a {
 .uppermidpic {
     height: 200px;
     width: 200px;
+}
+
+
+.uppermidlist {
+    display: flex;
+    gap: 80px;
+    justify-content: center;
 }
 
 
