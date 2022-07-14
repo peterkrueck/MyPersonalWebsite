@@ -14,9 +14,22 @@ body {
     background-color: #1F2937;
 }
 
-.headercontainer {
+.header {
     display: flex;
-    justify-content: space-around;
+    padding: 0px 160px 60px;
+    gap: 80px;
+}
+
+.headercontainer1 {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.headercontainer2 {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
 }
 
 .headerlist {
@@ -31,7 +44,7 @@ body {
 }
 
 .headerlogo {
-    padding-top: 10px;
+    padding-top: 12px;
 }
 
 ul {
@@ -47,6 +60,8 @@ h1 {
     background-color: rgb(87, 126, 225);
     color: #F9FAF8;
     padding: 8px 16px;
+    border-radius: 8px;
+    flex: 0 1 auto;
 }
 
 a {
@@ -57,7 +72,7 @@ a {
 
 
 .uppermid {
-    padding-bottom: 40px;
+    padding-bottom: 60px;
 }
 
 
